@@ -29,3 +29,5 @@ console.log(sirname);
 let can be updated but not re-declared.
 const cannot be updated or re-declared
 */ 
+
+/*Note : Always Used Let or Constant    Skipp Var / */
