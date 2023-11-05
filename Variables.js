@@ -22,3 +22,10 @@ value of `Name` is then logged to the console using `console.log(Name)`.   Let :
 var sirname = "Juneja"
 
 console.log(sirname);
+
+
+
+/*var variables can be re-declared and updated
+let can be updated but not re-declared.
+const cannot be updated or re-declared
+*/ 
