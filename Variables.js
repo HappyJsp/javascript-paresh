@@ -19,7 +19,7 @@ value of `Name` is then logged to the console using `console.log(Name)`.   Let :
 /* The code is declaring a variable named `sirname` using the `var` keyword and assigning it the value
 "Juneja". The value of `sirname` is then logged to the console using `console.log(sirname)`. */
 
-var sirname = "Juneja"
+var sirname = "Bhavsar"
 
 console.log(sirname);
 
