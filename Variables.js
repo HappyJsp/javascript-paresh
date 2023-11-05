@@ -31,3 +31,11 @@ const cannot be updated or re-declared
 */ 
 
 /*Note : Always Used Let or Constant    Skipp Var / */
+
+
+let salary 
+
+console.log(salary) ;
+
+
+/*Salary : Undefind */ 
