@@ -22,7 +22,95 @@ Symbol	A unique and immutable value that can be used as a property key	Symbol("m
 Object	A collection of key-value pairs	{ name: "John Doe", age: 30 }
 */
 
+/*magine a shoebox filled with various items. Each item in the box has a label that helps you identify it. This box represents an object in JavaScript, and the items inside represent the object's properties. Each property has a name (like the label on the item) and a value (like the item itself).*/
 
-/*magine a shoebox filled with various items. Each item in the box has a label that helps you identify it. This box represents an object in JavaScript, and the items inside represent the object's properties. Each property has a name (like the label on the item) and a value (like the item itself).*/ 
+const myShoebox = {
+  color: "blue",
+  size: 9,
+  brand: "Nike",
+  laces: true,
+  condition: "new",
+};
+
+console.log(myShoebox);
+
+/*String Data Type */
+
+const nam = "John Doe";
+const greeting = "Hello, world!";
+
+console.log(nam);
+console.log(greeting);
+
+
+
+/*Number*/ 
+
+const age = 30;
+const pi = 3.14159;
+const temperature = -20;
+
+
+console.log(age);
+console.log(pi) ;
+
+console.log(temperature) ;
+
+
+/*Bigint:*/
+const bigNumber = 12345678901234567890n;
+
+/*Boolean*/
+const isHappy = true;
+const isRaining = false;
+
+console.log(isHappy);
+console.log(isRaining)
+
+
+
+/*Undefind*/ 
+
+let variable;
+console.log(variable); // Output: undefined
+
+
+/*NuLL : represent Empty Value :  tempture Empty Analogy */
+
+const missingValue = null;
+
+
+console.log(missingValue);
+
+
+
+/*
+The typeof operator in JavaScript is used to determine the data type of a value. It takes a single operand, which can be any JavaScript data type, and returns a string indicating the type of the operand.*/
+
+
+console.log(typeof age);
+
+
+
+
+
+
+/*What is the difference between the data types number and bigint in JavaScript?
+
+What is the difference between the data types undefined and null in JavaScript?
+
+How can you use the typeof operator to determine the data type of a value in JavaScript?
+
+Write a function that takes two operands and returns the sum of the operands, but throws an error if either operand is not a number.
+
+Explain the difference between primitive data types and reference data types in JavaScript.
+
+Give an example of how to create an object in JavaScript and access its properties.
+
+Explain how arrays are used to store collections of data in JavaScript.
+
+Describe the difference between dot notation and bracket notation for accessing properties of objects in JavaScript.
+
+Explain how to add and remove properties from an object in JavaScript.*/ 
 
 
